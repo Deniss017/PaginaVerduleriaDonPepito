@@ -61,7 +61,9 @@
 
 }
 .columna2{
-    width: 60%;
+    width:75%;
+    display: grid;
+    grid-template-columns:repeat(2,1fr)
 }
 .publicidad{
     margin-left:3%;
@@ -72,26 +74,62 @@
 }
 body{
     margin: 0;
-    background: url("../media/tabla.jpg");
-}
+}   
 .imgbody1{
-    margin-top: 50px;
-    width: 50%;
-    margin-left: 25%;
-    box-shadow: #000;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
 }
 .imgbody2{
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 150px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
 }
 .imgbody3{
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 150px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
 }
 .imgbody4{
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 150px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+}
+.imagen1{
+    margin-top: 20px;
+    width: 80%;
+    height: 420px;
+    box-shadow: 0 0 45px #0008;
+    border-radius: 5px;
+}
+.imagen2{
+    margin-top: 20px;
+    width: 80%;
+    height: 420px;
+    box-shadow: 0 0 45px #0008;
+    border-radius: 5px;
+}
+
+.imagen3{
+    margin-top: 20px;
+    width: 80%;
+    height: 420px;
+    box-shadow: 0 0 45px #0008;
+    border-radius: 5px;
+}
+
+.imagen4{
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 80%;
+    height: 420px;
+    box-shadow: 0 0 45px #0008;
 }
